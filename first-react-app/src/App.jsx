@@ -4,7 +4,7 @@ import Input from "./Input";
 import TaskList from "./TaskList";
 import "./App.css";
 
-// Create Context
+
 const TaskContext = createContext();
 
 export const useTasks = () => useContext(TaskContext);
